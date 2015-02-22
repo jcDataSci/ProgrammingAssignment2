@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve. Returns the inverse of a matrix stored in a makeCacheMatrix
-## object, and cache's it if nor present
+## object, and cache's it if not present
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
